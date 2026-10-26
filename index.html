@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QuizBank — web thi thử trắc nghiệm các môn học: chọn đề, kiểm tra đáp án tức thì, giải thích tiếng Việt và thống kê tỉ lệ đúng–sai.">
+  <title>QuizBank — Thi thử trắc nghiệm ELC201, NWC204, OSG202 &amp; hơn thế nữa</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f766e'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3E⚡%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        displayMath: [["\\[", "\\]"], ["$$", "$$"]],
+        processEscapes: true
+      },
+      svg: { fontCache: "global" },
+      options: { enableMenu: false }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" async></script>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#/" id="homeBtn">
+          <span class="logo">⚡</span>
+          <span>QuizBank<small>Kho đề thi trắc nghiệm</small></span>
+        </a>
+        <div class="spacer"></div>
+        <button class="icon-btn" id="themeBtn" title="Chuyển giao diện sáng/tối" aria-label="Chuyển giao diện sáng/tối">🌙</button>
+      </div>
+    </header>
+
+    <main id="view" aria-live="polite"></main>
+
+    <footer>
+      <b>QuizBank</b>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="data/subjects.js"></script>
+  <script src="data/exams/elc201-su26-fe.js"></script>
+  <script src="data/exams/elc201-su26-re.js"></script>
+  <script src="data/exams/elc201-su25-fe.js"></script>
+  <script src="data/exams/elc201-fa25-re.js"></script>
+  <script src="data/exams/elc201-sp26-fe.js"></script>
+  <script src="data/exams/nwc204-su26-fe.js"></script>
+  <script src="data/exams/nwc204-su26-re.js"></script>
+  <script src="data/exams/nwc204-sp26-re.js"></script>
+  <script src="data/exams/nwc204-fa25-fe.js"></script>
+  <script src="data/exams/nwc204-fa25-re.js"></script>
+  <script src="data/exams/osg202-su26-fe.js"></script>
+  <script src="data/exams/osg202-su26-re.js"></script>
+  <script src="data/exams/osg202-sp26-fe.js"></script>
+  <script src="data/exams/osg202-sp26-re.js"></script>
+  <script src="data/exams/osg202-fa25-fe.js"></script>
+  <script src="data/exams/osg202-fa25-re.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
