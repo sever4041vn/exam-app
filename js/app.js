@@ -164,6 +164,7 @@
         '<div class="hero">' +
           '<h1>Ôn thi <span class="accent">trắc nghiệm</span> — luyện ngay, chấm ngay</h1>' +
           "<p>Chọn bộ đề, trả lời từng câu và nhận phản hồi tức thì: đáp án đúng/sai, giải thích chi tiết bằng tiếng Việt và thống kê tỉ lệ đúng–sai sau mỗi lượt chọn.</p>" +
+          "<p style='font-style: bold; color: red'>Đề tham khảo không chắc chắn ra thi làm để trải nghiệm (Không làm được bài thi đừng hỏi tôi).</p>" +
           '<div class="search-wrap"><span class="icon">🔎</span>' +
           '<input id="searchBox" type="search" placeholder="Tìm kiếm bộ đề: tên môn, kỳ thi, loại… (VD: ELC201 final)" value="' + esc(homeFilter.q) + '" aria-label="Tìm kiếm bộ đề"></div>' +
           '<div class="stat-row">' +
