@@ -21,5 +21,12 @@ window.EXAMAPP_SUBJECTS = [
     nameVi: "Hệ điều hành",
     icon: "💻",
     description: "Tiến trình/thread, lập lịch CPU, deadlock, quản lý bộ nhớ (paging, segmentation, bộ nhớ ảo), file system, RAID, đĩa, I/O, virtualization/hypervisor."
+  },
+  {
+    id: "MAD101",
+    name: "Discrete Mathematics",
+    nameVi: "Toán rời rạc",
+    icon: "🧮",
+    description: "Logic mệnh đề & vị từ, tập hợp, hàm, dãy & quy nạp, đếm & tổ hợp, quan hệ, lý thuyết số (gcd, mod, RSA-like), đồ thị (Euler, Hamilton, cây khung), cây & thuật toán (Huffman, BST, sắp xếp)."
   }
 ];
