@@ -215,14 +215,16 @@ window.EXAMAPP_EXAMS.push({
       text: "Are these two graphs isomorphic? If not, what is the reason?",
       options: ["Yes, they are isomorphic", "No, they are not isomorphic because they do not have the same number of edges", "No, they are not isomorphic because they do not have the same number of vertices of degree 4", "No, they are not isomorphic because they do not have the same number of simple circuits of length 3", "None of the other choices is correct"],
       answers: [0],
-      explain: "Cả hai đồ thị đều có 5 đỉnh, 8 cạnh, cùng dãy bậc (4, 3, 3, 3, 3), cùng 4 chu trình tam giác, và đỉnh bậc 4 đều kề với tất cả đỉnh còn lại; bốn đỉnh còn lại tạo thành một chu trình 4 đỉnh ở cả hai đồ thị → đồng cấu. Có thể lập đẳng cấu ánh xạ đỉnh bậc 4 ↔ đỉnh giữa và giữ nguyên chu trình 4 đỉnh."
+      explain: "Cả hai đồ thị đều có 5 đỉnh, 8 cạnh, cùng dãy bậc (4, 3, 3, 3, 3), cùng 4 chu trình tam giác, và đỉnh bậc 4 đều kề với tất cả đỉnh còn lại; bốn đỉnh còn lại tạo thành một chu trình 4 đỉnh ở cả hai đồ thị → đồng cấu. Có thể lập đẳng cấu ánh xạ đỉnh bậc 4 ↔ đỉnh giữa và giữ nguyên chu trình 4 đỉnh.",
+      image: "q29.png"
     },
     {
       n: 30,
       text: "Are these two graphs isomorphic? If not, what is the reason?",
       options: ["No, they are not isomorphic because they do not have the same number of connected components", "No, they are not isomorphic because they do not have the same number of vertices of degree 2", "No, they are not isomorphic because they do not have the same number of edges", "Yes, they are isomorphic", "None of the other choices is correct"],
       answers: [3],
-      explain: "Cả hai đều là sao 7 cánh vẽ theo bước nhảy 2 ({7/2}) và bước nhảy 3 ({7/3}) trên 7 đỉnh — xét về cấu trúc mỗi đồ thị chỉ là một chu trình đơn C₇: 7 đỉnh bậc 2, 7 cạnh, liên thông. Hai chu trình cùng độ dài luôn đẳng cấu → hai đồ thị đồng cấu."
+      explain: "Cả hai đều là sao 7 cánh vẽ theo bước nhảy 2 ({7/2}) và bước nhảy 3 ({7/3}) trên 7 đỉnh — xét về cấu trúc mỗi đồ thị chỉ là một chu trình đơn C₇: 7 đỉnh bậc 2, 7 cạnh, liên thông. Hai chu trình cùng độ dài luôn đẳng cấu → hai đồ thị đồng cấu.",
+      image: "q30.png"
     },
     {
       n: 31,
